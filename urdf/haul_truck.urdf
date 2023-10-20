@@ -16,6 +16,13 @@
     </inertial>
   </link>
   <link name="left_wheel">
+    <visual>
+      <!--Wheel-->
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <mesh filename="package://truck/meshes/parts_Wheel.dae"/>
+      </geometry>
+    </visual>
     <inertial>
       <mass value="0.0"/>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
@@ -23,6 +30,13 @@
     </inertial>
   </link>
   <link name="right_wheel">
+    <visual>
+      <!--Wheel-->
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <mesh filename="package://truck/meshes/parts_Wheel.dae"/>
+      </geometry>
+    </visual>
     <inertial>
       <mass value="0.0"/>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
@@ -30,6 +44,13 @@
     </inertial>
   </link>
   <link name="back_left_wheel">
+    <visual>
+      <!--Wheel-->
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <mesh filename="package://truck/meshes/parts_Wheel.dae"/>
+      </geometry>
+    </visual>
     <inertial>
       <mass value="0.0"/>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
@@ -37,6 +58,13 @@
     </inertial>
   </link>
   <link name="back_right_wheel">
+    <visual>
+      <!--Wheel-->
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <mesh filename="package://truck/meshes/parts_Wheel.dae"/>
+      </geometry>
+    </visual>
     <inertial>
       <mass value="0.0"/>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
